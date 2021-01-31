@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+
+
+<test name = "Browserstack-firefox" />
+<parameter name ="os" value ="Windows" />  
+<parameter name ="os_version" value ="10" />  
+<parameter name ="browser" value ="Firefox" />  
+<parameter name ="browser_version" value ="75.0" />  
+    <classes>
+      <class name="com.sample.browserstack.ParallelExecution"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name = "Browserstack-chrome" />
+<parameter name ="os" value ="Windows" />  
+<parameter name ="os_version" value ="10" />  
+<parameter name ="browser" value ="Chrome" />  
+<parameter name ="browser_version" value ="86.0" />  
+    <classes>
+      <class name="com.sample.browserstack.ParallelExecution"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name = "Browserstack-chrome" />
+<parameter name ="os" value ="Windows" />  
+<parameter name ="os_version" value ="8.1" />  
+<parameter name ="browser" value ="Chrome" />  
+<parameter name ="browser_version" value ="86.0" />  
+    <classes>
+      <class name="com.sample.browserstack.ParallelExecution"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+</suite> <!-- Suite -->

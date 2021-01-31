@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test name="Browser stack-firefox">
+  <parameter name ="os" value="Windows" />
+   <parameter name ="os_version" value="10" />
+    <parameter name ="browser" value="Firefox" />
+     <parameter name ="browser_version" value="latest-beta" />
+ <classes>
+      <class name="com.sample.browserstack.ParallelExecution"/>
+    </classes>
+     </test>
+     
+     <test name="Browser stack-chrome">
+  
+  <parameter name ="os" value="Windows" />
+   <parameter name ="os_version" value="10" />
+    <parameter name ="browser" value="Chrome" />
+     <parameter name ="browser_version" value="latest-beta" />
+  
+     <classes>
+      <class name="com.sample.browserstack.ParallelExecution"/>
+    </classes>
+     </test>
+  
+  <test name="Browser stack-OS">
+  <parameter name ="os" value="Windows" />
+   <parameter name ="os_version" value="8.1" />
+    <parameter name ="browser" value="Firefox" />
+     <parameter name ="browser_version" value="latest-beta" />
+ <classes>
+      <class name="com.sample.browserstack.ParallelExecution"/>
+    </classes>
+     </test> 
+     
+     <test name="Browser stack-IE">
+  <parameter name ="os" value="Windows" />
+   <parameter name ="os_version" value="8.1" />
+    <parameter name ="browser" value="IE" />
+     <parameter name ="browser_version" value="11.0" />
+ <classes>
+      <class name="com.sample.browserstack.ParallelExecution"/>
+    </classes>
+     </test> 
+     
+  </suite> <!-- Suite -->

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="25270" started-at="2020-12-31T03:54:36Z" finished-at="2020-12-31T03:55:02Z">
+    <groups>
+    </groups>
+    <test name="Browser stack-OS" duration-ms="15791" started-at="2020-12-31T03:54:36Z" finished-at="2020-12-31T03:54:52Z">
+      <class name="com.sample.browserstack.ParallelExecution">
+        <test-method status="PASS" signature="browserStack(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sample.browserstack.ParallelExecution@cc285f4]" name="browserStack" duration-ms="15738" started-at="2020-12-31T03:54:36Z" finished-at="2020-12-31T03:54:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8.1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[latest-beta]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserStack -->
+      </class> <!-- com.sample.browserstack.ParallelExecution -->
+    </test> <!-- Browser stack-OS -->
+    <test name="Browser stack-IE" duration-ms="16970" started-at="2020-12-31T03:54:36Z" finished-at="2020-12-31T03:54:53Z">
+      <class name="com.sample.browserstack.ParallelExecution">
+        <test-method status="PASS" signature="browserStack(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sample.browserstack.ParallelExecution@475530b9]" name="browserStack" duration-ms="16925" started-at="2020-12-31T03:54:36Z" finished-at="2020-12-31T03:54:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8.1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserStack -->
+      </class> <!-- com.sample.browserstack.ParallelExecution -->
+    </test> <!-- Browser stack-IE -->
+    <test name="Browser stack-chrome" duration-ms="18413" started-at="2020-12-31T03:54:36Z" finished-at="2020-12-31T03:54:55Z">
+      <class name="com.sample.browserstack.ParallelExecution">
+        <test-method status="PASS" signature="browserStack(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sample.browserstack.ParallelExecution@5c7fa833]" name="browserStack" duration-ms="18369" started-at="2020-12-31T03:54:36Z" finished-at="2020-12-31T03:54:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[latest-beta]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserStack -->
+      </class> <!-- com.sample.browserstack.ParallelExecution -->
+    </test> <!-- Browser stack-chrome -->
+    <test name="Browser stack-firefox" duration-ms="25270" started-at="2020-12-31T03:54:36Z" finished-at="2020-12-31T03:55:02Z">
+      <class name="com.sample.browserstack.ParallelExecution">
+        <test-method status="PASS" signature="browserStack(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sample.browserstack.ParallelExecution@32d992b2]" name="browserStack" duration-ms="25233" started-at="2020-12-31T03:54:36Z" finished-at="2020-12-31T03:55:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[latest-beta]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserStack -->
+      </class> <!-- com.sample.browserstack.ParallelExecution -->
+    </test> <!-- Browser stack-firefox -->
+  </suite> <!-- Suite -->
+</testng-results>

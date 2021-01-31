@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="Browser stack-IE(failed)" parallel="tests">
+    <parameter name="os" value="Windows"/>
+    <parameter name="os_version" value="11.0"/>
+    <parameter name="browser" value="IE"/>
+    <parameter name="browser_version" value="latest-beta"/>
+    <classes>
+      <class name="com.sample.browserstack.ParallelExecution">
+        <methods>
+          <include name="browserStack" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.sample.browserstack.ParallelExecution -->
+    </classes>
+  </test> <!-- Browser stack-IE(failed) -->
+</suite> <!-- Failed suite [Suite] -->
